@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Team oasis</title>
+    <!-- This page CSS -->
+    <!-- chartist CSS -->
+    <link href="../assets/node_modules/morrisjs/morris.css" rel="stylesheet">
+    <!--c3 plugins CSS -->
+    <link href="../assets/node_modules/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="dist/css/style.css" rel="stylesheet">
+    <!-- Dashboard 1 Page CSS -->
+    <link href="dist/css/pages/dashboard1.css" rel="stylesheet">
+</head>
+
+<body class="skin-default-dark fixed-layout">
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Team oasis</p>
+        </div>
+    </div>
+    
+    <div>
+        <aside class="left-sidebar" style="background-color: #ECEBFF ;">
+            <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li><a href = "#"><img src="../assets/images/calandar.png" class = "img-icon"></a></li>
+                    <br>
+                    <li><a href = "#"><img src="../assets/images/per.png" class = "img-icon"></a></li>
+                    <br>
+                    <li><a href = "#"><img src="../assets/images/hashtag.png"  class = "img-icon"></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+
+        <div class="page-wrapper">
+            <div class="container-fluid">
+
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Today's Schedule</h3>
+                                <h6 class="card-subtitle">check out your daily schedule</h6>
+                                <div class="steamline m-t-40">
+                                    <div class="sl-item">
+                                        <div class="sl-left bg-success"> <i class="fa fa-user"></i></div>
+                                        <div class="sl-right">
+                                            <div class="font-medium">Meeting today <span class="sl-date"> 5pm</span></div>
+                                            <div class="desc">you can write anything </div>
+                                        </div>
+                                    </div>
+                                    <div class="sl-item">
+                                        <div class="sl-left bg-info"><i class="fa fa-image"></i></div>
+                                        <div class="sl-right">
+                                            <div class="font-medium">Send documents to Clark</div>
+                                            <div class="desc">Lorem Ipsum is simply </div>
+                                        </div>
+                                    </div>
+                                    <div class="sl-item">
+                                        <div class="sl-left"> <img class="img-circle" alt="user" src="../assets/images/users/1.jpg"> </div>
+                                        <div class="sl-right">
+                                            <div class="font-medium">John Doe <span class="sl-date"> 5pm</span></div>
+                                            <div class="desc">Call today with gohn doe </div>
+                                        </div>
+                                    </div>
+                                    <div class="sl-item">
+                                        <div class="sl-left"> <img class="img-circle" alt="user" src="../assets/images/users/2.jpg"> </div>
+                                        <div class="sl-right">
+                                            <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span></div>
+                                            <div class="desc">Contrary to popular belief</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="card oh" style="background-color: #ECEBFF;">
+                            <div class="card-body">
+                                <div class="d-flex m-b-30 align-items-center no-block">
+                                    <h3 class="card-title ">Calander </h3>
+                                </div>
+                                <div id="morris-area-chart" style="height: 350px;"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+        </div>
+
+    </div>
+    <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="dist/js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!--morris JavaScript -->
+    <script src="../assets/node_modules/raphael/raphael-min.js"></script>
+    <script src="../assets/node_modules/morrisjs/morris.min.js"></script>
+    <script src="../assets/node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="../assets/node_modules/d3/d3.min.js"></script>
+    <script src="../assets/node_modules/c3-master/c3.min.js"></script>
+    <!-- Chart JS -->
+    <script src="dist/js/dashboard1.js"></script>
+</body>
+
+</html>
