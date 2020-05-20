@@ -1,6 +1,13 @@
 body {
-
-  background-color: aquamarine;
+  
+  background-image:
+    linear-gradient(
+      to right,
+      #DAD9FF 45%,
+      #DAD9FF 10%,
+      #fff 15%,
+      #fff 85%
+    );
 }
 
 
